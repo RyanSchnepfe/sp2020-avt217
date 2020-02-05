@@ -1,0 +1,42 @@
+body {
+  background-color: Peru;
+  color: white;
+  font-family: monospace;
+  font-weight: 400px;
+  font-size: 20px;
+}
+a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  text-decoration: none;
+
+}
+a:hover {
+  color: blue;
+}
+ul {
+  list-style-type:upper-roman;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+#images {
+  margin: 0;
+  text-align: center;
+}
+#images images {
+  max-width: 100%
+  margin: 25px 0;
+}
