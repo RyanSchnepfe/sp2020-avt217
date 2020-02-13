@@ -13,12 +13,19 @@ a {
   text-decoration: none;
 
 }
+
+}
 a:hover {
   color: blue;
 }
 ul {
   list-style-type:upper-roman;
 }
+.container{
+  width: 50%;
+  margin: 100px auto;
+}
+
 h1{
   text-align: center;
   text-decoration: underline;
@@ -32,6 +39,9 @@ h3 {
   text-align: center;
   text-decoration: underline;
 }
+
+
+
 #images {
   margin: 0;
   text-align: center;

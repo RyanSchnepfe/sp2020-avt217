@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.container {
+ width: 69vw;
+ margin: 50px 10%;
+}
+.block-1, .block-2, .block-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  /* opacity: .7; */
+
+  border: 2px solid black;
+}
+.block-1 {
+  width: 0;
+     height: 0;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     border-bottom: 100px solid BlueViolet;
+}
+.block-2 {
+
+  width: 200px;
+      height: 100px;
+      background: Crimson;
+      border-radius: 100px / 50px;
+}
+.block-3 {
+
+  width: 200px;
+     height: 100px;
+     background: Cyan;
+}
