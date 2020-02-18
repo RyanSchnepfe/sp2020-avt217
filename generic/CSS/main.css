@@ -1,0 +1,15 @@
+h1.google {
+  font-weight: 400;
+  font-family: 'Akronim', cursive;
+}
+h2.google {
+font-family: alexander-quill, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+#container {
+  background-color: grey;
+  width: 75%;
+  margin: 100px auto;
+  padding: 100px;
+}
