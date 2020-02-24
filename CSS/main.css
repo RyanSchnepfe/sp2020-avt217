@@ -1,13 +1,13 @@
 body {
   background-color: Peru;
-  color: white;
+  
   font-family: monospace;
   font-weight: 400px;
   font-size: 20px;
   margin: 100px auto;
 }
 a {
-  
+
   text-transform: uppercase;
   letter-spacing: 5px;
 
