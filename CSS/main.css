@@ -10,14 +10,14 @@ a {
 
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: blue;
+
 
 
 }
 a:hover {
   color: black ;
   background-color: DarkOliveGreen ;
-  
+
 }
 }
 
