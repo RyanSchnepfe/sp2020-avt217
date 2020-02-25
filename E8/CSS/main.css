@@ -1,0 +1,64 @@
+body{
+  margin: 100px;
+  background-color: tan;
+}
+
+
+.board {
+  width: 800px;
+  margin: 100px auto;
+
+}
+.red, .white{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+}
+.white {
+  background-color: white;
+}
+
+
+
+
+.container {
+  width: 900px;
+
+
+}
+.header {
+  width: 900px;
+  height: 50px;
+  background-color: teal;
+  float:left;
+}
+.subhead {
+  width: 900px;
+  height: 100px;
+  margin: 25px 0;
+    background-color: teal;
+ float:left;
+
+}
+.column {
+  width: calc(( 900px - 50px ) / 3);
+  height: 600px;
+    background-color: teal;
+    float:left;
+
+
+}
+.footer {
+  width: 900px;
+  height: 75px;
+  margin: 25px 0 0 0;
+    background-color: teal;
+    float:left;
+}
+.margin25 {
+  margin: 0 25px;
+
+}
