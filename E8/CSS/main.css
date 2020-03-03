@@ -62,3 +62,85 @@ body{
   margin: 0 25px;
 
 }
+
+.bloghead{
+  width: 600px;
+  height: 100px;
+  background-color: teal;
+  float:left;
+}
+
+.blogbody{
+  width: 500px;
+  height: 300px;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float:left;
+  background-color: teal;
+}
+
+.blogpicture{
+  width: 80px;
+  height: 150px;
+  float:left;
+  margin-left: 580px;
+
+  background-color: teal;
+}
+
+.blogfooter{
+  width: 500px;
+  height: 25px;
+  float: left;
+  background-color: teal;
+  margin-bottom: 100px;
+}
+
+.tennisleft{
+  width:100px;
+  height:600px;
+  float:left;
+  background-color: teal;
+
+
+}
+
+.tennisright{
+  width:100px;
+  height:600px;
+  float:left;
+  background-color: teal;
+
+
+}
+
+.tennismiddlelong{
+  width:560px;
+  height:130px;
+  float:left;
+  background-color: teal;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.tennismiddlestoutleft{
+  width:270px;
+  height: 450px;
+  float: left;
+  background-color: teal;
+  margin-left: 20px;
+}
+.tennismiddlestoutright{
+  width:270px;
+  height: 450px;
+  float:left;
+  background-color: teal;
+    margin-left: 20px;
+      margin-right: 20px;
+}
+.tenniscontainer {
+  width: 900px;
+  float: left;
