@@ -1,0 +1,30 @@
+body {
+
+margin: o;
+
+}
+.container {
+  width:90vw;
+  height: 100px;
+  background-color: red;
+
+  margin: 150px auto;
+}
+.header {
+width: 100%;
+background-color: blue;
+height: 100px;
+
+}
+.mainText {
+width:50% ;
+background-color: blue;
+height: 100px;
+margin: 30% 0 0 50%;
+}
+
+@media only screen and (max-width: 1000px){
+body{
+background-color: blue;
+  }
+}
