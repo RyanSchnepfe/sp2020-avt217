@@ -28,21 +28,18 @@ margin: auto;
 
 .header {
 width: 100%;
-background-color: white;
+background-color: tan;
 height: auto;
 
 }
 
 .mainText {
 width:100% ;
-background-color: white;
+background-color: tan;
 height: auto;
 margin-top: 50px;
 }
 
-h1{
-  font-size: 50px;
-}
 
 .image {
   width:100% ;
@@ -54,6 +51,9 @@ h1{
 }
 
 @media only screen and (max-width: 500px){
+  h1{
+    font-size: 70px;
+  }
 
 body{
 background-color: tan;
@@ -68,6 +68,9 @@ img {
 }
 
 @media only screen and (min-width:500px){
+  h1{
+    font-size: 70px;
+  }
 
 body{
 background-color: tan;
@@ -83,6 +86,9 @@ background-color: tan;
 
 }
 @media only screen and (min-width:1024px){
+  h1{
+    font-size: 70px;
+  }
 
 body{
 background-color: tan;
@@ -99,9 +105,11 @@ background-color: tan;
 }
 
 @media only screen and (min-width:1440px){
-
+  h1{
+    font-size: 70px;
+  }
 body{
-background-color: white;
+background-color: tan;
   }
 
   img {
