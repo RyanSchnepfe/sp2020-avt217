@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background-color: red; */
+  margin: 0;
+  height: 300vh;
+  background-color: black;
+  /* background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+/* positions item at coordinates and isn't impacted by the scroll */
+.fixed {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 300px;
+  left: 100px;
+}
+/* positions item at coordinates and scrolls with page */
+.absolute {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+/* positions relative to page position it normally would show at */
+.relative {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 50px;
+}
+
+/* to use position relative to the parent (.bigdiv) element, give the parent element a position of relative and the child (.littlediv) element a position of absolute. That will reset the child element's 0,0 as the parent's 0,0. */
+
+.bigdiv {
+  width: 1000px;
+  height: 500px;
+  background-color: blue;
+  margin: 100px auto;
+  position: relative;
+}
+
+.littlediv {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.box {
+  background-color: Green;
+  width: 500px;
+  height: 700px;
+
+  position: relative;
+  margin: 100px auto;
+
+}
+
+.boxtop {
+  background-color: white;
+  width:200px;
+  height: 50px;
+
+  position: absolute;
+  top: 20px;
+
+  left: 155px;
+}
+.boxtop {
+
+  top: 20px;
+}
+.boxbody {
+  background-color: lightgreen;
+  width:490px;
+  height:600px;
+
+  position: absolute;
+  top: 90px;
+  bottom: 20px;
+}
+
+.boxbody{
+
+}
+
+.nose {
+  background-color: green;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 350px;
+  left: 200px;
+}
+.l-nostril, .r-nostril {
+  background-color: darkgreen;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 25px;
+}
+.l-nostril {
+  left: 15px;
+}
+.r-nostril {
+  left: 45px;
+}
+
+.boxend{
+  background-color: black;
+  width:100;
+  height:500;
+  position: absolute;
+  margin: 100px auto;
+}
+
+.innerdisk{
+  background-color: gray;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  border-radius: 50%
+}
+.outerdisk{
+  background-color: lightgray;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  border-radius: 50%
+}
+p{
+font-size: 35px;
+text-align: center;
+
+}
